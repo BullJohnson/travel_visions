@@ -1,0 +1,40 @@
+figure {
+    text-align: center;
+    display: table; 
+    align-content: left;
+    width: 30%; /* demo; set some amount (px or %) if you can */
+    margin: 10px auto; /* not needed unless you want centered */
+}
+.sun    {   height: 395px;
+            width: 800px;
+            margin: auto;
+            background-color: #ffff00;
+            border-radius: 25rem 25rem 0 0;
+            text-align: center;
+}
+.jet    {   
+            z-index: 5;
+            opacity: 0.6;
+            padding-top: 100px;
+            width: 90%;
+            transform: rotate(-5deg);
+
+}
+#slide_text {   font-size: 2em;}
+header      {   background-color: #ffffff;
+                position: relative;
+                margin-top: -50px;
+                text-align: center;
+                height: 120px;
+                margin-bottom: 0;
+}
+h1          {   font-size: 4em;
+                text-shadow: 3px 3px #808080;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+                margin-bottom: 0;
+}
+h3          {   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 2em;
+                padding-top: 0;
+                margin-top: 0;
+}
